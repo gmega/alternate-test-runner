@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "alternate-test-runner"
+version = "0.1.0"
+description = ""
+authors = ["gmega <giuliano.mega@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+yarl = "^1.9.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
